@@ -19,7 +19,7 @@ a.button:hover {
 }
 .topNav {
 	float:right;
-	margin-right: 25px;
+	margin-right: 35px;
 }
 
 .topNav li  {
@@ -69,6 +69,7 @@ a.button:hover {
 
 }
 .searchBox img {
+
 	padding: 142px 0 24px 0;
 	display: block;
 	margin: 0 auto;
@@ -149,12 +150,122 @@ a.button:hover {
 
 
 
+/*Media querys*/
+
+@media (max-width: 650px) {
+	.searchBox input {
+		width: 70%;
+	}
+
+}
 
 
 
+@media (max-width: 550px) {
+	.left,
+	.right{
+		padding: 0;
+	}
+	.left li a, .right li a{
+		margin: 0;
+	}
+}
 
+@media (max-width: 435px) {
+	.topNav {
+		margin-right: 40px;
+	}
+	.shareButton {
+		display: none;
+	}
+	.left {
+		margin-left: 5px;
+	}
+	
+}
+@media (max-width: 411px) {
+	.topNav {
+		margin: 18px;
+	}
+	.searchButton {
+		display: none;
+	}
+	.shareButton {
+		display: none;
+	}
+	.left {
+		margin-left: 8px;
+	}
+	.searchBox input {
+		width: 80%;
+	}
+	.searchBox img {
+		padding-bottom: 50px;
+	}
+}
 
+@media (max-width: 375px) {
+	.topNav {
+		padding:0;
+	}
+	.searchBox img {
+		width: 60%;
+	}
+}
 
+@media (max-width: 360px) {
+	.topNav {
+		width: 93%;
+		margin-right: 10px;
+	}
+	.shareButton {
+		display: none;
+		padding: 0;
+		margin: 0;
+	}.searchBox img{
+		width: 70%;
+	}
+	.searchBox input {
+		width: 80%;
+	}
+}
+
+@media (max-width: 320px) {
+	.topNav {
+		font-size: 22px;
+		padding-left: 15px;
+		margin-right: 20px;
+		margin-left: 20px;
+
+	}
+	.topmNav li {
+		padding: 5px 5px 0 0;
+	}
+
+	.profileImg {
+		display: none;
+	}
+ 	.shareButton {
+ 		display: none;
+ 	}
+	.searchBox img{
+		width: 70%;
+		padding:87px 0 24px 0;
+	}
+	.searchBox input {
+		width: 75%;
+	}
+	.searchButton button {
+		display: none;
+	}
+	.left{
+		padding-left: 68px; 
+	}
+	.right {
+		padding-right: 80px;
+	}
+
+}
 
 
 
